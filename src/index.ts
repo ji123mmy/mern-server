@@ -65,6 +65,6 @@ async function startServer() {
 
 startServer();
 
-httpServer.listen(process.env.PORT || 8080, () => {
+httpServer.listen(process.env.PORT || 5000, () => {
   console.log("server started at http://localhost:8080/graphql");
 });
